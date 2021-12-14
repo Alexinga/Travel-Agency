@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./js/main.js"></script>
+    <title>Travel Agency</title>
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <div class="hamburger" data-aos="fade-right">
+                <div class="bars"></div>
+                <div class="bars"></div>
+                <div class="bars"></div>
+            </div>
+            <h1 class="logo" data-aos="fade-in"><span><i class="fas fa-paper-plane"></i></span>Travel</h1>
+            <ul class="navbar-links" data-aos="fade-left">
+                <li><a href="#home" class="navbar-link">Home</a></li>
+                <li><a href="#about" class="navbar-link">About</a></li>
+                <li><a href="#destinations" class="navbar-link">Destination</a></li>
+                <li><a href="#services" class="navbar-link">Services</a></li>
+                <li><a href="#gallery" class="navbar-link">Gallery</a></li>
+                <li><a href="#blogs" class="navbar-link">Blog</a></li>
+            </ul>
+            <button class="btn btn-nav" data-aos="fade-left">Book Now</button>
+        </nav>
+    </header>
+    <section class="landing-page">
+        <div class="landing-content">
+            <h3 data-aos="slide-up" data-aos-delay="1000">Follow Us</h3>
+            <h1 data-aos="slide-up">To The Unknown</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad recusandae vel officiis tenetur quis debitis
+                perspiciatis optio provident, reprehenderit saepe.</p>
+            <button class="btn">Book Now</button>
+        </div>
+        <div class="where-form">
+            <form class="form-group">
+                <div class="form-control" data-aos="fade-right">
+                    <label for="where">Where To?</label>
+                    <input type="text" name="where" id="where" placeholder="place name">
+                </div>
+                <div class="form-control" data-aos="fade-right">
+                    <label for="when">When?</label>
+                    <input type="date" name="when" id="when">
+                </div>
+                <div class="form-control" data-aos="fade-right">
+                    <label for="num">How Many?</label>
+                    <input type="number" name="num" id="num" placeholder="number of tourists">
+                </div>
+                <div class="form-control" data-aos="fade-right">
+                    <button class="btn">Find Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-content">
+            <div class="about-vid">
+                <video src="./imgs/about-vid-1.mp4" muted autoplay loop></video>
+                <div class="controls">
+                    <span class="control-btn" data-src="./imgs/about-vid-1.mp4"></span>
+                    <span class="control-btn" data-src="./imgs/about-vid-2.mp4"></span>
+                    <span class="control-btn" data-src="./imgs/about-vid-3.mp4"></span>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Why Choose Us</h3>
+                <h2>Nature's Majesty Awaits You</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur quasi fuga alias saepe
+                    delectus quo perspiciatis, adipisci tempore dicta incidunt.</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section id="destinations">
+        <div class="heading">
+            <h3>Our Destination</h3>
+            <h2>Makes Yours Destination</h2>
+        </div>
+        <div class="card-container">
+            <div class="overlay card-content" data-aos="fade-in">
+                <img class="lazy" src="./imgs/des-1.jpg" alt="destination-spot-1">
+                <h2>Tours &amp; Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                <button class="btn-destination">Read More &rightarrow;</button>
+            </div>
+            <div class="overlay card-content" data-aos="fade-in">
+                <img class="lazy" src="./imgs/des-2.jpg" alt="destination-spot-2">
+                <h2>Tours &amp; Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn-destination">Read More &rightarrow;</button>
+            </div>
+            <div class="overlay card-content" data-aos="fade-in">
+                <img class="lazy" src="./imgs/des-3.jpg" alt="destination-spot-3">
+                <h2>Tours &amp; Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn-destination">Read More &rightarrow;</button>
+            </div>
+            <div class="overlay card-content" data-aos="fade-in">
+                <img class="lazy" src="./imgs/des-4.jpg" alt="destination-spot-4">
+                <h2>Tours &amp; Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn-destination">Read More &rightarrow;</button>
+            </div>
+            <div class="overlay card-content" data-aos="fade-in">
+                <img class="lazy" src="./imgs/des-5.jpg" alt="destination-spot-5">
+                <h2>Tours &amp; Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn-destination">Read More <span class="arrow">&rightarrow;</span></button>
+            </div>
+            <div class="overlay card-content" data-aos="fade-in">
+                <img class="lazy" src="./imgs/des-6.jpg" alt="destination-spot-6">
+                <h2>Tours &amp; Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn-destination">Read More &rightarrow;</button>
+            </div>
+            <div class="overlay card-content" data-aos="fade-in">
+                <img class="lazy" src="./imgs/des-7.jpg" alt="destination-spot-7">
+                <h2>Tours &amp; Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn-destination">Read More &rightarrow;</button>
+            </div>
+            <div class="overlay card-content" data-aos="fade-in">
+                <img class="lazy" src="./imgs/des-8.jpg" alt="destination-spot-8">
+                <h2>Tours &amp; Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn-destination">Read More &rightarrow;</button>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="heading">
+            <h3>Our Services</h3>
+            <h2>Countless Experience</h2>
+        </div>
+        <div class="card-container-2">
+            <div class="border card-content-2">
+                <i class="fas fa-globe"></i>
+                <h2>World Wide</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, commodi.</p>
+            </div>
+            <div class="border card-content-2">
+                <i class="fas fa-hiking"></i>
+                <h2>Adventure</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, commodi.</p>
+            </div>
+            <div class="border card-content-2">
+                <i class="fas fa-utensils"></i>
+                <h2>Food &amp; Drinks</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, commodi.</p>
+            </div>
+            <div class="border card-content-2">
+                <i class="fas fa-hotel"></i>
+                <h2>Affordable Hotels</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, commodi.</p>
+            </div>
+            <div class="border card-content-2">
+                <i class="fas fa-wallet"></i>
+                <h2>Affordable Price</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, commodi.</p>
+            </div>
+            <div class="border card-content-2">
+                <i class="fas fa-headset"></i>
+                <h2>24/7 Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, commodi.</p>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="heading">
+            <h3>Our Gallery</h3>
+            <h2>We Record Memories</h2>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-content" data-aos="zoom-in">
+                <img class="lazy" src="./imgs/gallery-img-1.jpg" alt="gallery-img-1">
+                <p>Travel Spot</p>
+                <h2>Iceland</h2>
+            </div>
+            <div class="gallery-content" data-aos="zoom-in">
+                <img class="lazy" src="./imgs/gallery-img-4.jpg" alt="gallery-img-4">
+                <p>Travel Spot</p>
+                <h2>Australia</h2>
+            </div>
+            <div class="gallery-content" data-aos="zoom-in">
+                <img class="lazy" src="./imgs/gallery-img-7.jpg" alt="gallery-img-7">
+                <p>Travel Spot</p>
+                <h2>India</h2>
+            </div>
+            <div class="gallery-content" data-aos="zoom-in">
+                <img class="lazy" src="./imgs/gallery-img-2.jpg" alt="gallery-img-2">
+                <p>Travel Spot</p>
+                <h2>Maldives</h2>
+            </div>
+            <div class="gallery-cotent" data-aos="zoom-in">
+                <img class="lazy" src="./imgs/gallery-img-5.jpg" alt="gallery-img-5">
+                <p>Travel Spot</p>
+                <h2>Thailand</h2>
+            </div>
+            <div class="gallery-cotent" data-aos="zoom-in">
+                <img class="lazy" src="./imgs/gallery-img-8.jpg" alt="gallery-img-8">
+                <p>Travel Spot</p>
+                <h2>Greenland</h2>
+            </div>
+            <div class="gallery-cotent" data-aos="zoom-in">
+                <img class="lazy" src="./imgs/gallery-img-3.jpg" alt="gallery-img-3">
+                <p>Travel Spot</p>
+                <h2>Alaska</h2>
+            </div>
+            <div class="gallery-cotent" data-aos="zoom-in">
+                <img class="lazy" src="./imgs/gallery-img-6.jpg" alt="gallery-img-6">
+                <p>Travel Spot</p>
+                <h2>Japan</h2>
+            </div>
+            <div class="gallery-cotent" data-aos="zoom-in">
+                <img class="lazy" src="./imgs/gallery-img-9.jpg" alt="gallery-img-9">
+                <p>Travel Spot</p>
+                <h2>Italy</h2>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right" data-aos-delay="2500">
+                <h3>Testimonials</h3>
+                <h2>Good News From Our Clients</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate cupiditate ullam nam blanditiis
+                    inventore saepe accusantium autem ab libero perferendis a expedita, alias asperiores at officiis
+                    eius eligendi nobis? Asperiores.</p>
+            </div>
+            <div class="testimonial-pics" data-aos="fade-left" data-aos-delay="2500">
+                <div class="testimonial-card">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, at?</p>
+                    <div class="test-content">
+                        <img class="lazy" src="./imgs/pic-1.png" alt="agent-portfolio-1">
+                        <div>
+                            <h3>John Doe</h3>
+                            <p class="color">Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, at?</p>
+                    <div class="test-content">
+                        <img class="lazy" src="./imgs/pic-2.png" alt="agent-portfolio-2">
+                        <div>
+                            <h3>Gabby Gonzalez</h3>
+                            <p class="color">Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, at?</p>
+                    <div class="test-content">
+                        <img class="lazy" src="./imgs/pic-3.png" alt="agent-portfolio-3">
+                        <div>
+                            <h3>Ryan Goldman</h3>
+                            <p class="color">Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, at?</p>
+                    <div class="test-content">
+                        <img class="lazy" src="./imgs/pic-4.png" alt="agent-portfolio-4">
+                        <div>
+                            <h3>Amy Price</h3>
+                            <p class="color">Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="blogs">
+        <div class="heading">
+            <h3>Blogs &amp; Posts</h3>
+            <h2>The Untold Story</h2>
+        </div>
+        <div class="blog-container">
+            <div class="blog-content" data-aos="fade-in" data-aos-delay="4000">
+                <img class="lazy" src="./imgs/blog-1.jpg" alt="blog-pic-1">
+                <h2>Life Is A Journey, Not a Destination</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, repellat?</p>
+                <div class="blog-info">
+                    <i class="fas fa-clock"><span>21st May 2021</span></i>
+                    <i class="fas fa-user"><span>By Admin</span></i>
+                </div>
+            </div>
+            <div class="blog-content" data-aos="fade-in" data-aos-delay="4000">
+                <img class="lazy" src="./imgs/blog-2.jpg" alt="blog-pic-1">
+                <h2>Life Is A Journey, Not a Destination</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, repellat?</p>
+                <div class="blog-info">
+                    <i class="fas fa-clock"><span>21st May 2021</span></i>
+                    <i class="fas fa-user"><span>By Admin</span></i>
+                </div>
+            </div>
+            <div class="blog-content" data-aos="fade-in" data-aos-delay="4000">
+                <img class="lazy" src="./imgs/blog-3.jpg" alt="blog-pic-1">
+                <h2>Life Is A Journey, Not a Destination</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, repellat?</p>
+                <div class="blog-info">
+                    <i class="fas fa-clock"><span>21st May 2021</span></i>
+                    <i class="fas fa-user"><span>By Admin</span></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="banner">
+        <div class="banner-container">
+            <div class="banner-content" data-aos="flip-up" data-aos-delay="4000">
+                <h3>Start Your Adventures</h3>
+                <h2>Let's Explore This World</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nobis sapiente, soluta modi nesciunt
+                    exercitationem mollitia quasi quibusdam officia debitis.</p>
+                <button class="btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3><i class="fas fa-paper-plane"></i>Travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, facere?</p>
+                <div class="footer-social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#destinations">Destination</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Our Address</h3>
+                <div class="footer-address">
+                    <i class="fas fa-flag"><span>West Chester, Pennsylvania - 19382</span></i>
+                    <i class="fas fa-phone"><span>484-123-4567</span></i>
+                    <i class="fas fa-envelope"><span>travelEmail123@gmail.com</span></i>
+                    <i class="fas fa-clock"><span>7:00am - 10:00pm</span></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <h3>News Letter</h3>
+                <p>Subscribe For Latest Updates</p>
+                <input type="email" name="email" placeholder="enter your email">
+                <button class="btn">subscribe</button>
+            </div>
+        </div>
+    </section>
+    <section id="copyright">
+        <div class="copyright-container">
+            <h3>Created by <span>Alex Inga</span> | All Rights Reserved</h3>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 2000,
+        });
+    </script>
+</body>
+
+</html>
